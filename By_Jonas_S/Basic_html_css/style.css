@@ -1,0 +1,33 @@
+body{
+    background-image: linear-gradient(grey, rgb(196, 119, 119));
+}
+.container{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.first-container{
+    display: flex;
+}
+
+main{
+    min-height: 100px;
+    flex:  3;
+    padding-right: 10px;
+}
+
+
+
+section{
+    min-height: 40px;
+    flex: 1;
+    padding-left: 10px;
+}
+
+footer{
+    min-height: 10px;
+    border-top: 1px solid black;
+    margin-top: 20px;
+}
