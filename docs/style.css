@@ -1,0 +1,244 @@
+html{
+    background-image: linear-gradient(#fc5e55,#fa4083);
+}
+
+body{
+    background-image: url("image-lion-background.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: Roboto;
+    color: white;
+    font-size: 1.125rem;
+}
+
+.main2{
+    line-height: 3em;
+    margin-top: 30px;
+}
+
+input[type="text"]{
+    padding: 8px 20px;
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 6px;
+}
+
+div input,textarea{
+    display: block;
+    margin-top: 1px;
+}
+
+.userMessage{
+    margin-top: 6px;
+}
+
+.newsLater input{
+    display: inline;
+}
+
+.mailPreference{
+    line-height: 1.3em;
+}
+.mailPreference div{
+    display: inline;
+}
+.mailPreference span{
+    display: block;
+}
+.optionMonthly  input{
+    display: inline;
+}
+
+.submitButton{
+    display: block;
+    margin-top: 10px;
+}
+
+.submitButton input{
+    background-color: rgb(34, 34, 39);
+    border-radius: 3px 15px;
+    font-size: 20px;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.navbutton:hover a{
+    background-color: rgb(148, 126, 126);
+    transition: .5s;
+}
+
+.optionWeekely  input{
+    display: inline;
+}
+
+form{
+    border: 2px solid wheat;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 70%;
+}
+.main2 h1{
+    font-size: 3rem;
+}
+.container{
+    width: 1000px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.control-buttons{
+    margin-right: 10px;
+}
+
+div.control-buttons div{
+    display: inline-block;
+}
+
+div.navbutton a{
+    box-sizing: border-box;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 3px;
+    border: 1px solid white;
+    padding: 12px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 2px;
+    box-shadow: 6px 6px 6px rgb(78, 67, 48);
+    margin-right: 0px;
+}
+
+main{
+    min-height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1{
+    background-image: url(image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    border-radius: 3px 40px;
+}
+
+.card2{
+    background-image: url(image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    border-radius: 3px 40px;
+}
+
+.card3{
+    background-image: url(image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    border-radius: 3px 40px;
+}
+
+.herobox1{
+    flex: 2;
+    padding-right: 2rem;
+}
+
+.herobox2{
+    flex: 1;
+}
+
+main div h1{
+    font-size: 4rem;
+    color: whitesmoke;
+    margin-bottom: 1.2rem;
+    text-shadow: 3px 3px black;
+}
+
+main div p{
+    font-size: 1rem;
+    color: whitesmoke;
+    ;
+}
+
+p{
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+div.cards div{
+    text-align: center;
+}
+
+div.cards div h2{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#logo{
+    border-radius: 3px 40px;
+}
+
+a#myButton{
+    color: palevioletred;
+    text-decoration: none;
+    background-color: aliceblue;
+    border-radius: 3px;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 7px;
+    box-shadow: 6px 6px 6px rgb(78, 67, 48);
+}
+
+a#myButton:hover{
+    background-color: rgb(109, 92, 109);
+    color: white;
+    transition: 0.5s;
+}
+
+div.cards div i{
+    margin-top: 10px;
+    font-size: 80px;
+}
+
+div a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox{
+    width: 32%;
+    border: 1px solid whitesmoke;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 20px;
+}
