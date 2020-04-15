@@ -1,0 +1,32 @@
+
+
+a{
+    color: cornsilk;
+    text-decoration: none;
+}
+.navButton{
+    background-color: coral;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.dropDown-box{
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding-top: 20px;    
+}
+
+.navButton:hover .dropDown-box{
+    display: block;
+}
+
+.dropDown-menu{
+    background-color: rgb(47, 11, 63);
+    margin-top: 5px;
+    border-radius: 5px;
+
+}
+

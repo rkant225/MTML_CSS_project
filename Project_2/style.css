@@ -1,9 +1,11 @@
 html{
-    height: 100%;
+    background-image: linear-gradient(#fc5e55,#fa4083);
 }
 
 body{
-    background-image: linear-gradient(#fc5e55,#fa4083);
+    background-image: url("image-lion-background.png");
+    background-repeat: no-repeat;
+    background-position: top center;
     font-family: Roboto;
     color: white;
     font-size: 1.125rem;
@@ -21,19 +23,24 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid whitesmoke;
 }
 
 .control-buttons{
     margin-right: 10px;
 }
 
-div.control-buttons a{
-    box-sizing: border-box;
+div.control-buttons div{
+    display: inline-block;
+}
 
+div.navbutton a{
+    box-sizing: border-box;
     color: whitesmoke;
     text-decoration: none;
     border-radius: 3px;
-    border: 2px solid white;
+    border: 1px solid white;
     padding: 12px;
     display: inline-block;
     margin-top: 20px;
@@ -135,12 +142,33 @@ a#myButton{
     box-shadow: 6px 6px 6px rgb(78, 67, 48);
 }
 
+a#myButton:hover{
+    background-color: rgb(109, 92, 109);
+    color: white;
+    transition: 0.5s;
+}
+
 div.cards div i{
     margin-top: 10px;
     font-size: 80px;
 }
 
 div a{
-    color: antiquewhite;
+    color: whitesmoke;
     text-decoration: none;
+}
+
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox{
+    width: 32%;
+    border: 1px solid whitesmoke;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 20px;
 }
