@@ -1,4 +1,4 @@
-/* Desktop view */
+mo/* Desktop view */
 
 body{
     margin: 0px;
@@ -16,10 +16,13 @@ body{
 }
 
 .col{
-    background-color: rgb(77, 77, 68);
-    min-height: 200px;
     width: 30%;
     margin-bottom: 10px;
+}
+
+.col img{
+    width: 100%;
+    height: auto;
 }
 
 /* Tablate view */
