@@ -1,33 +1,56 @@
+html{
+    height: 100%;
+}
+
 body{
-    background-image: linear-gradient(grey, rgb(196, 119, 119));
+    background-image: linear-gradient(orange,red);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .container{
-    width: 80%;
+    width: 1024px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 20px;
 }
 
 .first-container{
     display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 main{
-    min-height: 100px;
-    flex:  3;
-    padding-right: 10px;
+    width: 80%;
+    text-align: justify;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 
 
 section{
-    min-height: 40px;
-    flex: 1;
-    padding-left: 10px;
+    box-sizing: border-box;
+    height: 120px;
+    width: 200px;
+    padding-right: 5px;
 }
 
 footer{
     min-height: 10px;
     border-top: 1px solid black;
     margin-top: 20px;
+}
+
+.first{
+    background-color: lightblue;
+    height: 50px;
+    width: 50px;
+}
+
+.second{
+    background-color: rgb(116, 102, 102);
+    height: 50px;
+    width: 50px;
+    padding: 10px;
 }
