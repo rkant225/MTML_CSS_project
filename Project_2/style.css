@@ -11,6 +11,76 @@ body{
     font-size: 1.125rem;
 }
 
+.main2{
+    line-height: 3em;
+    margin-top: 30px;
+}
+
+input[type="text"]{
+    padding: 8px 20px;
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 6px;
+}
+
+div input,textarea{
+    display: block;
+    margin-top: 1px;
+}
+
+.userMessage{
+    margin-top: 6px;
+}
+
+.newsLater input{
+    display: inline;
+}
+
+.mailPreference{
+    line-height: 1.3em;
+}
+.mailPreference div{
+    display: inline;
+}
+.mailPreference span{
+    display: block;
+}
+.optionMonthly  input{
+    display: inline;
+}
+
+.submitButton{
+    display: block;
+    margin-top: 10px;
+}
+
+.submitButton input{
+    background-color: rgb(34, 34, 39);
+    border-radius: 3px 15px;
+    font-size: 20px;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.navbutton:hover a{
+    background-color: rgb(148, 126, 126);
+    transition: .5s;
+}
+
+.optionWeekely  input{
+    display: inline;
+}
+
+form{
+    border: 2px solid wheat;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 70%;
+}
+.main2 h1{
+    font-size: 3rem;
+}
 .container{
     width: 1000px;
     min-height: 300px;

@@ -36,11 +36,51 @@
         </header>
 
 
-        <main>
+        <div class="main2">
             
-            Contact
+            <h1>Contact Us</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est quia aut fugiat voluptate sunt? Quaerat tempore autem tenetur ut recusandae dignissimos corrupti asperiores voluptas quibusdam.</p>
 
-        </main>
+            <form action="index.html" method="post">
+                <div class="customerName">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="customerName">
+                    <label for="email">E-mail</label>
+                    <input type="text" name="email" id="email">
+                </div>
+
+                <div class="userMessage">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="80" rows="5"></textarea>
+                </div>
+
+                <div class="newsLater">
+                    <input type="checkbox" name="newsLater" id="newsLater" value="newsLater">
+                    <label for="message">Dou you want recieve mails in future?</label>
+                </div>
+
+                <div class="mailPreference">
+                    <span>Mail Preference</span>
+                    <div class="PreferanceOptions">
+                        <div class="optionWeekely">
+                            <label for="weekly">Weekely</label>
+                            <input type="radio" name="mailPreference" id="weekly">
+                        </div>
+                        <div class="optionMonthly">
+                            <label for="monthly">Monthly</label>
+                            <input type="radio" name="mailPreference" id="monthly">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="submitButton">
+                    <input type="submit" value="Submit" id="submitForm">
+                </div>
+
+            </form>
+        </div>
 
 
         <div class="cards">
